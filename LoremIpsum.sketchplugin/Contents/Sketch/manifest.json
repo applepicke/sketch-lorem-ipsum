@@ -1,0 +1,73 @@
+{
+  "name" : "Lorum Ipsum",
+  "identifier" : "com.sketchapp.examples.loremipsum",
+  "version" : "1.0",
+  "description" : "Generate different amounts of Lorem Ipsum",
+  "authorEmail" : "wcurtiscollins@gmail.com",
+  "author" : "William Collins",
+  "commands" : [
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence10",
+      "shortcut" : "shift alt cmd 1",
+      "name" : "Generate 10 words",
+      "identifier" : "sentence10"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence20",
+      "shortcut" : "shift alt cmd 2",
+      "name" : "Generate 20 words",
+      "identifier" : "sentence20"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence30",
+      "shortcut" : "shift alt cmd 3",
+      "name" : "Generate 30 words",
+      "identifier" : "sentence30"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence40",
+      "shortcut" : "shift alt cmd 4",
+      "name" : "Generate 40 words",
+      "identifier" : "sentence40"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence50",
+      "shortcut" : "shift alt cmd 5",
+      "name" : "Generate 50 words",
+      "identifier" : "sentence50"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence60",
+      "shortcut" : "shift alt cmd 6",
+      "name" : "Generate 60 words",
+      "identifier" : "sentence60"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence70",
+      "shortcut" : "shift alt cmd 7",
+      "name" : "Generate 70 words",
+      "identifier" : "sentence70"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence80",
+      "shortcut" : "shift alt cmd 8",
+      "name" : "Generate 80 words",
+      "identifier" : "sentence80"
+    },
+    {
+      "script" : "lorem-ipsum.js",
+      "handler" : "onSentence90",
+      "shortcut" : "shift alt cmd 9",
+      "name" : "Generate 90 words",
+      "identifier" : "sentence90"
+    },
+  ]
+}
